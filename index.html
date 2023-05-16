@@ -1,27 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .div1{
+        .div1 {
             width: 10%;
             height: 600px;
             border: 1px solid #f00;
-            display:inline-block
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            font-size: 20px;
+            font-family: '楷体';
+            line-height: 100%;
         }
-        .div2{
+
+        .div1 img {
+            width: 25px;
+            border: 1px solid #f00;
+        }
+
+        .div11 {
+            height: 50px;
+            border: 1px solid #f00;
+            float: left;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        .div1 .div11 img {
+            width: 40px;
+        }
+
+        table {
+            border: #fff 1px solid;
+            width: 100px;
+
+        }
+
+        table tr th {
+            border: #fff 1px solid;
+
+        }
+
+        .div2 {
             width: 70%;
             height: 600px;
             border: 1px solid #0f0;
-            display:inline-block
+            display: inline-block;
+        }
+
+        .div3 {
+            width: 100%;
+            height: 50px;
+            background: #001;
+        }
+        .div31 {
+            width: 400px;
+            height: 60px;
+            float: left;
+            margin-top: 5px;
+        }
+
+        .div31 .div32 {
+            position: relative;
+            left: 30%;
+            border: none;
+            background-color: #161823;
+        }
+
+        .div31 .div32 img {
+            width: 18px;
+            height: 18px;
+            vertical-align: middle
+        }
+
+        .div31 .div32 span {
+            color: #fff;
+        }
+
+        .div31  input {
+            position: relative;
+            left: 50%;
+            width: 300px;
+            height: 36px;
+            padding: 0 10px;
+            border: 2px solid #BABABD;
+            border-radius: 5px;
+            background-color: #161823;
+
+        }
+        .div4 {
+            width: 100%;
+            height: 500px;
+            background: #0ff;
         }
     </style>
 </head>
+
 <body>
-    <div class="div1"></div>
-    <div class="div2"></div>
+    <div class="div1">
+        <div class="div11"><img src="img/index.png" alt="">抖音</div>
+        <table>
+            <tr>
+                <th><img src="img/d1.png" alt="">首页</th>
+            </tr>
+            <tr>
+                <th><img src="img/d2.png" alt="">推荐</th>
+            </tr>
+            <tr>
+                <th><img src="img/d3.png" alt="">关注</th>
+            </tr>
+            <tr>
+                <th><img src="img/d4.png" alt="">朋友</th>
+            </tr>
+            <tr>
+                <th><img src="img/d5.png" alt="">我的</th>
+            </tr>
+            <tr>
+                <th><img src="img/d6.png" alt="">直播</th>
+            </tr>
+            <tr>
+                <th><img src="img/d7.png" alt="">放映</th>
+            </tr>
+            <tr>
+                <th><img src="img/d8.png" alt="">热点</th>
+            </tr>
+            <tr>
+                <th><img src="img/d9.png" alt="">游戏</th>
+            </tr>
+            <tr>
+                <th><img src="img/d10.png" alt="">娱乐</th>
+            </tr>
+            <tr>
+                <th><img src="img/d11.png" alt="">动漫</th>
+            </tr>
+            <tr>
+                <th><img src="img/d12.png" alt="">音乐</th>
+            </tr>
+            <tr>
+                <th><img src="img/d13.png" alt="">美食</th>
+            </tr>
+            <tr>
+                <th><img src="img/d14.png" alt="">知识</th>
+            </tr>
+            <tr>
+                <th><img src="img/d15.png" alt="">体育</th>
+            </tr>
+            <tr>
+                <th><img src="img/d16.png" alt="">时尚</th>
+            </tr>
+        </table>
+
+    </div>
+    <div class="div2">
+        <div class="div3">
+            <div class="div31">
+                <input type="text" placeholder="love story">
+                <a href="javascript:;" class="div32">
+                    <img src="img/搜索.png" alt="">
+                    <span>搜索</span>
+                </a>
+            </div>
+        </div>
+        <div class="div4"></div>
+    </div>
 </body>
+
 </html>
