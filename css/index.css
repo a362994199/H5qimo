@@ -1,0 +1,126 @@
+.div1 {
+    width: 10%;
+    height: 600px;
+    border: 1px solid #f00;
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    font-family: '楷体';
+    line-height: 100%;
+    font-weight: bolder;
+    white-space: nowrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  
+}
+.div1::-webkit-scrollbar {
+    display:none;/*消除滚动轴*/
+  }
+
+.div1 img {
+    width: 25px;
+    border: 1px solid #f00;
+}
+
+.div11 {
+    height: 50px;
+    border: 1px solid #f00;
+    float: left;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #f00;
+}
+
+.div1 .div11 img {
+    width: 40px;
+}
+
+.div1 table {
+    border: #fff 1px solid;
+    width: 100px;
+    
+    
+
+}
+
+.div1 table tr th {
+    border: #fff 1px solid;
+    height: 50px;
+
+}
+
+.div2 {
+    width: 70%;
+    height: 600px;
+    border: 1px solid #0f0;
+    display: inline-block;
+}
+
+.div3 {
+    width: 100%;
+    height: 50px;
+    background: #001;
+}
+.div31 {
+    width: 400px;
+    height: 60px;
+    float: left;
+    margin-top: 5px;
+}
+
+.div31 .div32 {
+    position: relative;
+    left: 30%;
+    border: none;
+    background-color: #161823;
+}
+
+.div31 .div32 img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle
+}
+
+.div31 .div32 span {
+    color: #fff;
+}
+
+.div31  input {
+    position: relative;
+    left: 50%;
+    width: 300px;
+    height: 36px;
+    padding: 0 10px;
+    color: #fff;
+    border: 2px solid #BABABD;
+    border-radius: 5px;
+    background-color: #161823;
+
+}
+.div3 table{
+    border: #fff 1px solid;
+    float:right;
+    color:#fff;
+    margin-top: 3px;
+    font-family: '仿宋';
+    font-size: 3px;
+}
+.div3 table img{
+    width: 20px;
+    height: 20px;
+}
+.div3 table tr th{
+    border: #fff 1px solid;
+    width: 50px;
+    height: 30px;
+}
+.div3 table tr th button{
+    width: 60px;
+    height: 35px;
+    background: #f00;
+}
+.div4 {
+    width: 100%;
+    height: 500px;
+    background: #0ff;
+}
