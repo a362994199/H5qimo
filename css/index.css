@@ -1,3 +1,54 @@
+.div0{
+    height: 300px;
+    width: 300px;
+    border: #000 1px solid;
+    float: left;
+    position: absolute;
+    top:150px;
+    left:400px;
+    background: #fff;
+    text-align: center;
+}
+.div0 .div01 img {
+    height: 10px;
+    width: 10px;
+}
+.div0 .div01 span{
+    font-size: 12px;
+}
+.div03{
+    border: #000 1px solid;
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+.div03 .inp {
+    height: 30px;
+    width: 90%;
+}
+.clos {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.sub {
+    width: 90%;
+    height: 70%;
+    line-height: 100%;
+    border-style: none;
+    text-align: center;
+    background-color: #CF0;
+}
+
+.img1{
+    vertical-align: middle
+}
+.check {
+    height: 25px;
+    width: 68%;
+}
 .div1 {
     width: 10%;
     height: 600px;

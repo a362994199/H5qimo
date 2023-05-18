@@ -7,9 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" >
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
+    <div class="div0" id="div0">
+        <img src="img/取消.png" width="25px" class="clos" onClick="hide()">
+        <h3>登录后免费畅享高清视频</h3>
+        <div class="div01">
+            <img src="img/d01.png" alt=""><span>点赞评论随心发</span>
+            <img src="img/d02.png" alt=""><span>点赞评论随心发</span>
+            <img src="img/d03.png" alt=""><span>点赞评论随心发</span>
+        </div>
+        <div class="div03">
+            <div class="text"><input class="inp" type="text" id="name" placeholder="请输入用户名"></div>
+			<div class="text"><input class="inp" type="password" id="pass" placeholder="请输入密码"></div>
+			<div class="text"><input class="check" type="text" id="chek" placeholder="请输入验证码">
+				<img src="img/1.png" class="img1" id="imgCode1" width="50px" height="30px" onclick="changeCode()">
+			</div>
+			<div class="text"><input class="sub" type="button" value="登录" onclick="onLogin()" /></div>
+        </div>
+    </div>
+
+
     <div class="div1">
         <div class="div11"><img src="img/index.png" alt=""><span>抖音</span></div>
         <table>
@@ -81,7 +101,7 @@
                     <th><img src="img/t4.png" alt=""><br><span>通知</span></th>
                     <th><img src="img/t5.png" alt=""><br><span>私信</span></th>
                     <th><img src="img/t6.png" alt=""><br><span>投稿</span></th>
-                    <th><button>登录</button></th>
+                    <th><button onClick="show()">登录</button></th>
                 </tr>
             </table>
         </div>
