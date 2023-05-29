@@ -1,22 +1,38 @@
-.div0{
+a:link {
+    color: #3d3030;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+body {
+    width: 1800px;
+}
+
+.div0 {
     height: 300px;
     width: 300px;
     border: #000 1px solid;
     float: left;
     position: absolute;
-    top:150px;
-    left:400px;
+    top: 150px;
+    left: 600px;
     background: #fff;
     text-align: center;
+    z-index: 11;
 }
+
 .div0 .div01 img {
     height: 10px;
     width: 10px;
 }
-.div0 .div01 span{
+
+.div0 .div01 span {
     font-size: 12px;
 }
-.div03{
+
+.div03 {
     border: #000 1px solid;
     height: 150px;
     width: 250px;
@@ -24,15 +40,18 @@
     margin-left: 25px;
     padding-top: 20px;
 }
+
 .div03 .inp {
     height: 30px;
     width: 90%;
 }
+
 .clos {
     position: absolute;
     top: 8px;
     right: 8px;
 }
+
 .sub {
     width: 90%;
     height: 70%;
@@ -42,13 +61,15 @@
     background-color: #CF0;
 }
 
-.img1{
+.img1 {
     vertical-align: middle
 }
+
 .check {
     height: 25px;
     width: 68%;
 }
+
 .div1 {
     width: 10%;
     height: 600px;
@@ -63,11 +84,13 @@
     white-space: nowrap;
     overflow-y: scroll;
     overflow-x: hidden;
-  
+
 }
+
 .div1::-webkit-scrollbar {
-    display:none;/*消除滚动轴*/
-  }
+    display: none;
+    /*消除滚动轴*/
+}
 
 .div1 img {
     width: 25px;
@@ -89,8 +112,8 @@
 .div1 table {
     border: #fff 1px solid;
     width: 100px;
-    
-    
+
+
 
 }
 
@@ -112,6 +135,7 @@
     height: 50px;
     background: #001;
 }
+
 .div31 {
     width: 400px;
     height: 60px;
@@ -136,7 +160,7 @@
     color: #fff;
 }
 
-.div31  input {
+.div31 input {
     position: relative;
     left: 50%;
     width: 300px;
@@ -148,30 +172,115 @@
     background-color: #161823;
 
 }
-.div3 table{
+
+.div3 table {
     border: #fff 1px solid;
-    float:right;
-    color:#fff;
+    float: right;
+    color: #fff;
     margin-top: 3px;
     font-family: '仿宋';
     font-size: 3px;
 }
-.div3 table img{
+
+.div3 table img {
     width: 20px;
     height: 20px;
 }
-.div3 table tr th{
+
+.div3 table tr th {
     border: #fff 1px solid;
-    width: 50px;
+    width: 70px;
     height: 30px;
 }
-.div3 table tr th button{
-    width: 60px;
+
+.div3 table tr th button {
+    width: 80px;
     height: 35px;
+    border: none;
     background: #f00;
 }
+
 .div4 {
     width: 100%;
-    height: 500px;
-    background: #0ff;
+    height: 550px;
+    background-color: #161823;
+}
+
+.div41 {
+    width: 1100px;
+    height: 550px;
+    position: absolute;
+    margin-left: 5%;
+    background-image: url("img/背景.png");
+    border: #f00 1px solid;
+}
+
+.video-hide {
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid #f00; */
+}
+
+.controls {
+    /* border: 1px solid darkblue; */
+    width: 127%;
+    position: relative;
+    top: -6px;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* .a1{
+    border: 1px solid #ff0;
+} */
+.switch {
+    /* border: 1px solid rgb(86, 24, 210); */
+    float: left;
+    position: relative;
+    top: 20px;
+    left: -1080px;
+}
+
+.progress {
+    /* border: solid 1px red; */
+    width: 78%;
+    height: 3px;
+    float: left;
+    position: relative;
+    margin: 5px;
+    /* left: 5px; */
+}
+
+.progress:hover {
+    height: 10px;
+}
+
+.timer {
+    float: left;
+    position: relative;
+    top: 20px;
+    left: -1060px;
+}
+
+.line {
+    width: 0;
+    height: 100%;
+    background-color: #f00;
+    float: left;
+}
+
+.expand {
+    float: right;
+    position: relative;
+    top: 20px;
+    left: -350px;
+}
+
+.bar {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+    opacity: 0.5;
+
 }

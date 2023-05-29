@@ -48,3 +48,9 @@ function changeCode() {
         imgCode1.src = imgArr[i];
         imgCode1.alt = codeArr[i];
     }
+
+
+
+
+
+

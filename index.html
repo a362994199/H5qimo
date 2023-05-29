@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css" >
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" />
     <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
-    <div class="div0" id="div0">
+    <aside class="div0" id="div0">
         <img src="img/取消.png" width="25px" class="clos" onClick="hide()">
-        <h3>登录后免费畅享高清视频</h3>
+        <h3 >登录后免费畅享高清视频</h3>
         <div class="div01">
             <img src="img/d01.png" alt=""><span>点赞评论随心发</span>
             <img src="img/d02.png" alt=""><span>点赞评论随心发</span>
@@ -21,13 +22,13 @@
         </div>
         <div class="div03">
             <div class="text"><input class="inp" type="text" id="name" placeholder="请输入用户名"></div>
-			<div class="text"><input class="inp" type="password" id="pass" placeholder="请输入密码"></div>
-			<div class="text"><input class="check" type="text" id="chek" placeholder="请输入验证码">
-				<img src="img/1.png" class="img1" id="imgCode1" width="50px" height="30px" onclick="changeCode()">
-			</div>
-			<div class="text"><input class="sub" type="button" value="登录" onclick="onLogin()" /></div>
+            <div class="text"><input class="inp" type="password" id="pass" placeholder="请输入密码"></div>
+            <div class="text"><input class="check" type="text" id="chek" placeholder="请输入验证码">
+                <img src="img/1.png" class="img1" id="imgCode1" width="50px" height="30px" onclick="changeCode()">
+            </div>
+            <div class="text"><input class="sub" type="button" value="登录" onclick="onLogin()" /></div>
         </div>
-    </div>
+    </aside>
 
 
     <div class="div1">
@@ -105,8 +106,28 @@
                 </tr>
             </table>
         </div>
-        <div class="div4"></div>
+        <div class="div4">
+            <div class="div41">
+                <video src="mp4/sx1.mp4" class="video-hide"></video>
+                <div class="controls"> <!--视频底部控制条-->
+                    <div class="progress"> <!--播放进度-->
+                        <div id="line" class="line"></div>
+                        <div id="progressbar" class="bar"></div>
+                    </div>
+                    <a id="play" href="javascript:;" class="switch fa fa-play"></a> <!--播放/暂停-->
+                    <div class="timer"> <!--当前播放时间/播放总时长-->
+                        <span id="current">00:00:00</span> / <span id="total">00:00:00</span>
+                    </div>
+                    <a id="expand" href="javascript:;" class="expand fa fa-arrows-alt"></a><!--全屏-->
+                </div>
+            </div>
+
+
+        </div>
+        <div>
+            
+        </div>
     </div>
 </body>
-
+<script type="text/javascript" src="js/video.js"></script>
 </html>
