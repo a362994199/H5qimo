@@ -1,8 +1,16 @@
-function hide() {
+function cyh(){
+    document.getElementById('n1').style.visibility = 'hidden' 
+    document.getElementById('n2').style.visibility = 'hidden' 
+    document.getElementById('n3').style.visibility = 'hidden'
+    document.getElementById('n4').style.visibility = 'hidden'
+    document.getElementById('n5').style.visibility = 'hidden'
+}
+
+document.querySelector('.clos').onclick = function() {
     console.log(1111);
     document.getElementById('div0').style.visibility = 'hidden' 
 }
-function show(){
+function show_d(){
     document.getElementById('div0').style.visibility = 'visible' 
 }
 function cleartext() {
@@ -51,6 +59,92 @@ function changeCode() {
 
 
 
+let flagn1
+function shown1(){
+    clearInterval(flagn1)
+    document.getElementById('n1').style.visibility = 'visible'
+}
+function non1(){
+    flagn1 = setInterval(()=>{
+        document.getElementById('n1').style.visibility = 'hidden'
+    },100)
+}
+function n1(){
+    clearInterval(flagn1)
+    document.getElementById('n1').style.visibility = 'visible'
+}
+function noshown1(){
+        document.getElementById('n1').style.visibility = 'hidden'
+}
 
+let flagn2
+function shown2(){
+    clearInterval(flagn2)
+    document.getElementById('n2').style.visibility = 'visible'
+}
+function non2(){
+    flagn2 = setInterval(()=>{
+        document.getElementById('n2').style.visibility = 'hidden'
+    },100)
+}
+function n2(){
+    clearInterval(flagn2)
+    document.getElementById('n2').style.visibility = 'visible'
+}
+function noshown2(){
+        document.getElementById('n2').style.visibility = 'hidden'
+}
 
+let flagn3
+function shown3(){
+    clearInterval(flagn3)
+    document.getElementById('n3').style.visibility = 'visible'
+}
+function non3(){
+    flagn3 = setInterval(()=>{
+        document.getElementById('n3').style.visibility = 'hidden'
+    },100)
+}
+function n3(){
+    clearInterval(flagn3)
+    document.getElementById('n3').style.visibility = 'visible'
+}
+function noshown3(){
+        document.getElementById('n3').style.visibility = 'hidden'
+}
 
+let flagn4
+function shown4(){
+    clearInterval(flagn4)
+    document.getElementById('n4').style.visibility = 'visible'
+}
+function non4(){
+    flagn4 = setInterval(()=>{
+        document.getElementById('n4').style.visibility = 'hidden'
+    },100)
+}
+function n4(){
+    clearInterval(flagn4)
+    document.getElementById('n4').style.visibility = 'visible'
+}
+function noshown4(){
+        document.getElementById('n4').style.visibility = 'hidden'
+}
+
+let flagn5
+function shown5(){
+    clearInterval(flagn5)
+    document.getElementById('n5').style.visibility = 'visible'
+}
+function non5(){
+    flagn5 = setInterval(()=>{
+        document.getElementById('n5').style.visibility = 'hidden'
+    },100)
+}
+function n5(){
+    clearInterval(flagn5)
+    document.getElementById('n5').style.visibility = 'visible'
+}
+function noshown5(){
+        document.getElementById('n5').style.visibility = 'hidden'
+}

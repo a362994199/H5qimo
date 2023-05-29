@@ -8,12 +8,11 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" />
-    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
-<body>
+<body onload="cyh()">
     <aside class="div0" id="div0">
-        <img src="img/取消.png" width="25px" class="clos" onClick="hide()">
+        <img src="img/取消.png" width="25px" class="clos" >
         <h3 >登录后免费畅享高清视频</h3>
         <div class="div01">
             <img src="img/d01.png" alt=""><span>点赞评论随心发</span>
@@ -96,14 +95,57 @@
             </div>
             <table>
                 <tr>
-                    <th><img src="img/t1.png" alt=""><br><span>客户端</span></th>
-                    <th><img src="img/t2.png" alt=""><br><span>收藏网页</span></th>
-                    <th><img src="img/t3.png" alt=""><br><span>合作</span></th>
-                    <th><img src="img/t4.png" alt=""><br><span>通知</span></th>
-                    <th><img src="img/t5.png" alt=""><br><span>私信</span></th>
-                    <th><img src="img/t6.png" alt=""><br><span>投稿</span></th>
-                    <th><button onClick="show()">登录</button></th>
+                    <th onmouseover="shown1()" onmouseout="non1()"><img src="img/t1.png" alt=""><br><span>客户端</span></th>
+                    <th onmouseover="shown2()" onmouseout="non2()"><img src="img/t2.png" alt=""><br><span>收藏网页</span></th>
+                    <th onmouseover="shown3()" onmouseout="non3()"><img src="img/t3.png" alt=""><br><span>合作</span></th>
+                    <th onmouseover="shown4()" onmouseout="non4()"><img src="img/t4.png" alt=""><br><span>通知</span></th>
+                    <th onmouseover="shown4()" onmouseout="non4()"><img src="img/t5.png" alt=""><br><span>私信</span></th>
+                    <th onmouseover="shown5()" onmouseout="non5()"><img src="img/t6.png" alt=""><br><span>投稿</span></th>
+                    <th><button onClick="show_d()">登录</button></th>
                 </tr>
+            </table>
+            
+        </div>
+        <div class="n1" id="n1" onmouseover="n1()" onmouseout="noshown1()">
+            <table>
+                <tr><th><img src="img/n1.png" alt="">高清流畅播放</th></tr>
+                <tr><th><img src="img/n2.png" alt="">好友消息通知</th></tr>
+                <tr><th><img src="img/n3.png" alt="">桌面便捷访问</th></tr>
+            </table>
+            <div class="n11">
+                下载电脑客户端
+            </div>
+        </div>
+        <div class="n2" id="n2" onmouseover="n2()" onmouseout="noshown2()">
+            <img src="img/n4.png" alt="">
+            <span>添加桌面快捷入口</span>
+            <button>添加</button>
+        </div>
+        <div class="n3" id="n3" onmouseover="n3()" onmouseout="noshown3()">
+            <table>
+                <tr><th>抖音开放平台</th></tr>
+                <tr><th>认证与合作</th></tr>
+                <tr><th>广告投放</th></tr>
+                <tr><th>抖音电商</th></tr>
+                <tr><th>自律平台</th></tr>
+                <tr><th>规则中心</th></tr>
+                <tr><th>关于抖音</th></tr>
+            </table>
+        </div>
+        <div class="n4" id="n4" onmouseover="n4()" onmouseout="noshown4()">
+            <div class="n41">
+                登录后即可查看通知消息
+            </div>
+            <div class="n42">立即登入</div>
+        </div>
+        <div class="n5" id="n5" onmouseover="n5()" onmouseout="noshown5()">
+            <table>
+                <tr><th>发布视频</th></tr>
+                <tr><th>视频管理</th></tr>
+                <tr><th>作品数据</th></tr>
+                <tr><th>实时数据</th></tr>
+                <tr><th>学习中心</th></tr>
+                <tr><th>服务平台</th></tr>
             </table>
         </div>
         <div class="div4">
@@ -124,10 +166,10 @@
 
 
         </div>
-        <div>
-            
-        </div>
+
     </div>
 </body>
 <script type="text/javascript" src="js/video.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
 </html>
