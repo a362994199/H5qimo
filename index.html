@@ -160,7 +160,36 @@
                     <div class="timer"> <!--当前播放时间/播放总时长-->
                         <span id="current">00:00:00</span> / <span id="total">00:00:00</span>
                     </div>
+                    <div class="div412">
+                        <table cellspacing="10px">
+                            <tr>
+                                <th><input type="checkbox" id="a"><label for="a"></label>连播</th>
+                                <th><input type="checkbox" id="b"><label for="b"></label>清屏</th>
+                                <th onmouseover="shown6()" onmouseout="non6()">智能</th>
+                                <th onmouseover="shown7()" onmouseout="non7()">倍速</th>
+                                <th><img src="img/声音.png" alt="" style="width: 30px; height: 30px;"></th>
+                            </tr>
+                        </table>
+                    </div>
                     <a id="expand" href="javascript:;" class="expand fa fa-arrows-alt"></a><!--全屏-->
+                    <div class="n6"  id="n6" onmouseover="n6()" onmouseout="noshown6()">
+                        <table>
+                            <tr><th>高清</th></tr>
+                            <tr><th>清晰</th></tr>
+                            <tr><th>流畅</th></tr>
+                            <tr><th>极速</th></tr>
+                            <tr><th>智能</th></tr>
+                        </table>
+                    </div>
+                    <div class="n7"  id="n7" onmouseover="n7()" onmouseout="noshown7()">
+                        <table>
+                            <tr><th>2 x</th></tr>
+                            <tr><th>1.75 x</th></tr>
+                            <tr><th>1.5 x</th></tr>
+                            <tr><th>1 x</th></tr>
+                            <tr><th>0.5x</th></tr>
+                        </table>
+                    </div>
                 </div>
                 <div class="div42">
                     <table cellpadding="5px">

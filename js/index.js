@@ -6,6 +6,8 @@ function cyh(){
     document.getElementById('n5').style.visibility = 'hidden'
     document.getElementById('dz').style.visibility = 'hidden'
     document.getElementById('sc').style.visibility = 'hidden'
+    document.getElementById('n6').style.visibility = 'hidden'
+    document.getElementById('n7').style.visibility = 'hidden'
 }
 
 document.querySelector('.clos').onclick = function() {
@@ -170,4 +172,40 @@ function showsc(){
         document.getElementById('sc').style.visibility = 'hidden'
     }
     sc+=1
+}
+
+let flagn6
+function shown6(){
+    clearInterval(flagn6)
+    document.getElementById('n6').style.visibility = 'visible'
+}
+function non6(){
+    flagn6= setInterval(()=>{
+        document.getElementById('n6').style.visibility = 'hidden'
+    },100)
+}
+function n6(){
+    clearInterval(flagn6)
+    document.getElementById('n6').style.visibility = 'visible'
+}
+function noshown6(){
+        document.getElementById('n6').style.visibility = 'hidden'
+}
+
+let flagn7
+function shown7(){
+    clearInterval(flagn7)
+    document.getElementById('n7').style.visibility = 'visible'
+}
+function non7(){
+    flagn7= setInterval(()=>{
+        document.getElementById('n7').style.visibility = 'hidden'
+    },100)
+}
+function n7(){
+    clearInterval(flagn7)
+    document.getElementById('n7').style.visibility = 'visible'
+}
+function noshown7(){
+        document.getElementById('n7').style.visibility = 'hidden'
 }
