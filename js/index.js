@@ -4,6 +4,8 @@ function cyh(){
     document.getElementById('n3').style.visibility = 'hidden'
     document.getElementById('n4').style.visibility = 'hidden'
     document.getElementById('n5').style.visibility = 'hidden'
+    document.getElementById('dz').style.visibility = 'hidden'
+    document.getElementById('sc').style.visibility = 'hidden'
 }
 
 document.querySelector('.clos').onclick = function() {
@@ -147,4 +149,25 @@ function n5(){
 }
 function noshown5(){
         document.getElementById('n5').style.visibility = 'hidden'
+}
+
+var dz=0
+function showdz(){
+    if(dz%2==0){
+        document.getElementById('dz').style.visibility = 'visible'
+    }
+    else{
+        document.getElementById('dz').style.visibility = 'hidden'
+    }
+    dz+=1
+}
+var sc=0
+function showsc(){
+    if(sc%2==0){
+        document.getElementById('sc').style.visibility = 'visible'
+    }
+    else{
+        document.getElementById('sc').style.visibility = 'hidden'
+    }
+    sc+=1
 }

@@ -442,3 +442,52 @@ body {
     color: #000;
     background: #fff;
 }
+.div42{
+    /* width: 60px; */
+    /* height: 200px; */
+    float: right;
+    position: relative;
+    top: -380px;
+   
+    /* border: 1px solid #f00; */
+}
+.div42 table tr th{
+    color: #fff;
+    /* border: 1px solid #f00; */
+}
+.div42 table tr th img{
+    width: 40px;
+    height: 30px;
+}
+.div42 table tr th .img2{
+    z-index: 16;
+    float: left;
+    position: absolute;
+    left: 12px;
+}
+.div42 table tr th img:hover {
+    animation-name: cyh_dh;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.21, 0.85, 1, 1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes cyh_dh {
+    10% {
+        transform: scale(1.2)rotate(-6deg);
+        transform-origin: bottom
+    }
+
+    20% {
+        transform: scale(1.2)rotate(6deg);
+    }
+
+    30% {
+        transform: scale(1.2)rotate(5deg);
+    }
+
+    50%,
+    100% {
+        transform: scale(1.2)rotate(0deg);
+    }
+}
