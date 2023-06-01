@@ -1,5 +1,5 @@
 a:link {
-    color: #3d3030;
+    color: #928484;
     text-decoration: none;
 }
 a:hover {
@@ -7,7 +7,7 @@ a:hover {
     text-decoration: none;
 }
 body {
-    width: 1600px;
+    width: 1800px;
 }
 
 .div0 {
@@ -72,60 +72,101 @@ body {
 
 .div1 {
     width: 10%;
-    height: 600px;
-    border: 1px solid #f00;
+    height: 750px;
+    position: relative;
+    /* top: -100px; */
+    /* border: 1px solid #f00; */
     display: inline-block;
     background: #000;
     color: #fff;
     font-size: 20px;
     font-family: '楷体';
     line-height: 100%;
+    
+
+
+}
+
+.div1 img {
+    width: 50px;
+    /* border: 1px solid #f00; */
+}
+
+.div11 {
+    /* width: 90%; */
+    height: 100px;
+    /* border: 1px solid #f00; */
+    /* float: left; */
+    font-size: 40px;
+    /* display: block; */
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 4px 4px 4px #f00;
+}
+.div11 img{
+    position: relative;
+    top: 20px;
+}
+.div11 span{
+    position: relative;
+    top: 10px;
+}
+ .div12{
+    /* width: 90%; */
+    /* display: block; */
+    height: 450px;
     font-weight: bolder;
     white-space: nowrap;
     overflow-y: scroll;
     overflow-x: hidden;
-
 }
-
-.div1::-webkit-scrollbar {
+.div12::-webkit-scrollbar {
     display: none;
     /*消除滚动轴*/
 }
-
-.div1 img {
-    width: 25px;
-    border: 1px solid #f00;
-}
-
-.div11 {
-    height: 50px;
-    border: 1px solid #f00;
-    float: left;
-    font-size: 30px;
-    text-shadow: 4px 4px 4px #f00;
-}
-
-.div1 .div11 img {
+ .div12 img {
     width: 40px;
 }
 
-.div1 table {
-    border: #fff 1px solid;
-    width: 100px;
-
+.div1 .div12 table {
+    /* border: #fff 1px solid; */
+    width: 100%;
+    
 
 
 }
 
-.div1 table tr th {
-    border: #fff 1px solid;
+.div12 table tr th {
+    /* border: #fff 1px solid; */
     height: 50px;
-
+    font-size:25px;
+}
+.div12 table tr th a{
+    position: relative;
+    bottom: 10px;
+}
+.div13{
+    height: 200px;
+    /* white-space: nowrap; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+    /* border: 1px solid #f00; */
+}
+.div13::-webkit-scrollbar {
+    display: none;
+    /*消除滚动轴*/
+}
+.div13 table{
+    margin-left: 10px;
+}
+.div13 table tr th{
+    width: 40%;
 }
 
 .div2 {
     width: 70%;
-    height: 600px;
+    height: 750px;
     border: 1px solid #0f0;
     display: inline-block;
 }
@@ -202,13 +243,13 @@ body {
 
 .div4 {
     width: 100%;
-    height: 550px;
+    height: 700px;
     background-color: #161823;
 }
 
 .div41 {
-    width: 1000px;
-    height: 550px;
+    width: 1100px;
+    height: 650px;
     position: absolute;
     margin-left: 5%;
     background-image: url("../img/背景.png");
@@ -491,7 +532,7 @@ body {
     float: right;
     position: relative;
     left: 590px;
-    bottom: 20px;
+    /* bottom: 20px; */
     color: #fff;
     background: #161823;
     font-size: 13px;
@@ -530,7 +571,7 @@ body {
     z-index: 16;
     float: left;
     position: absolute;
-    left: 12px;
+    left: 13px;
 }
 .div42 table tr th img:hover {
     animation-name: cyh_dh;
