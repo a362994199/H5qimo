@@ -36,10 +36,10 @@ function onLogin() {
     } else if (userpwd.value == "") {
         alert("请输入验证码！");
         userpwd.focus();
-    } else if(userpwd.value==yzm){
+    } else if (userpwd.value == yzm) {
         alert("登录成功！！！");
         document.getElementById('div0').style.visibility = 'hidden'
-    }else{
+    } else {
         alert("验证码错误");
     }
 }
@@ -52,12 +52,16 @@ function isnum() {
     }
     return 1
 }
-function bh(){
-    var userpwd = document.getElementById("pass"); 
-    if(userpwd.value.length == 6){
-        document.getElementById('d033').style.opacity='1'
+function bh() {
+    var userpwd = document.getElementById("pass");
+    if (userpwd.value.length == 6) {
+        document.getElementById('d033').style.opacity = '1'
     }
 }
+
+
+
+
 
 
 
