@@ -8,6 +8,7 @@ function cyh() {
     document.getElementById('sc').style.visibility = 'hidden'
     document.getElementById('n6').style.visibility = 'hidden'
     document.getElementById('n7').style.visibility = 'hidden'
+    document.getElementById('n8').style.visibility = 'hidden'
 }
 
 document.querySelector('.clos').onclick = function () {
@@ -210,4 +211,30 @@ function n7() {
 }
 function noshown7() {
     document.getElementById('n7').style.visibility = 'hidden'
+}
+
+let flagn8
+
+function shown8() {
+    clearInterval(flagn8)
+    document.getElementById('n8').style.visibility = 'visible'
+}
+function non8() {
+    flagn8 = setInterval(() => {
+        document.getElementById('n8').style.visibility = 'hidden'
+    }, 100)
+}
+function n8() {
+    clearInterval(flagn8)
+    document.getElementById('n8').style.visibility = 'visible'
+}
+function noshown8() {
+    document.getElementById('n8').style.visibility = 'hidden'
+}
+function j_shown8(){
+    document.getElementById('n8').style.visibility = 'visible'
+    clearInterval(shown8())
+    clearInterval(non8())
+    clearInterval(n8())
+    clearInterval(noshown8())
 }
