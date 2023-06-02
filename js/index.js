@@ -26,7 +26,6 @@ function hqyz() {
         yzm = Math.floor(randomNumber * 100000);
         alert("获取的验证码:" + yzm);
     }
-
 }
 function onLogin() {
     var username = document.getElementById("name"); // 获取用户名
@@ -53,14 +52,12 @@ function isnum() {
     }
     return 1
 }
-
-
-
-function yanzheng() {
-
+function bh(){
+    var userpwd = document.getElementById("pass"); 
+    if(userpwd.value.length == 6){
+        document.getElementById('d033').style.opacity='1'
+    }
 }
-
-
 
 
 

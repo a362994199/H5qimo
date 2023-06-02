@@ -113,6 +113,7 @@ body {
     /* border: 1px solid #f00; */
     background: #ef4c4c;
     border-radius: 10px;
+    opacity: 0.5;
 }
 .div033 button{
     width: 90%;
