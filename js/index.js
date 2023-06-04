@@ -10,7 +10,9 @@ function cyh() {
     document.getElementById('n7').style.visibility = 'hidden'
     document.getElementById('n8').style.visibility = 'hidden'
     document.getElementById('tx').style.visibility = 'hidden'
+    document.getElementById('n9').style.visibility = 'hidden'
 }
+var user=0         //判断是否登录
 
 document.querySelector('.clos').onclick = function () {
     console.log(1111);
@@ -42,6 +44,7 @@ function onLogin() {
         alert("登录成功！！！");
         document.getElementById('div0').style.visibility = 'hidden'
         document.getElementById('tx').style.visibility = 'visible'
+        user=1
     } else {
         alert("验证码错误");
     }
@@ -125,19 +128,35 @@ function noshown3() {
 let flagn4
 function shown4() {
     clearInterval(flagn4)
-    document.getElementById('n4').style.visibility = 'visible'
+    if(user==1){
+        document.getElementById('n9').style.visibility = 'visible'
+    }else{
+        document.getElementById('n4').style.visibility = 'visible'
+    }
 }
 function non4() {
     flagn4 = setInterval(() => {
-        document.getElementById('n4').style.visibility = 'hidden'
+        if(user==1){
+            document.getElementById('n9').style.visibility = 'hidden'
+        }else{
+            document.getElementById('n4').style.visibility = 'hidden'
+        }
     }, 100)
 }
 function n4() {
     clearInterval(flagn4)
-    document.getElementById('n4').style.visibility = 'visible'
+    if(user==1){
+        document.getElementById('n9').style.visibility = 'visible'
+    }else{
+        document.getElementById('n4').style.visibility = 'visible'
+    }
 }
 function noshown4() {
-    document.getElementById('n4').style.visibility = 'hidden'
+    if(user==1){
+        document.getElementById('n9').style.visibility = 'hidden'
+    }else{
+        document.getElementById('n4').style.visibility = 'hidden'
+    }
 }
 
 let flagn5

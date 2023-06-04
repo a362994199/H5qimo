@@ -929,3 +929,60 @@ body {
     /* border: #f00 1px solid; */
     float: left;
 }
+.n9{
+    width: 320px;
+    height: 410px;
+    background: #161823;
+    border-radius: 10px;
+    /* border: #f00 1px solid; */
+    float: left;
+    position: relative;
+    top: -200px;
+    left: 550px;
+    z-index: 50;
+}
+.n9 .n91{
+    border-bottom: rgb(219, 210, 210) 2px solid;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 23px;
+    font-weight: 800;
+    color: #fff;
+    font-family: '楷体';
+}
+.n9 table tr th{
+    width: 100%;
+    height: 80px;
+    border-bottom: rgb(192, 184, 184) 1px solid;
+}
+.n9 table tr th img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+.n9 table tr th .n92{
+    font-family: '楷体';
+    float: left;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+.n9 table tr th .n92 span{
+    font-size: 16px;
+    opacity: 0.8;
+}
+.n9 table tr th button{
+    width:50px;
+    height: 30px;
+    border: none;
+    background: #f00;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
