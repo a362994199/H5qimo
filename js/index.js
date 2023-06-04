@@ -9,6 +9,7 @@ function cyh() {
     document.getElementById('n6').style.visibility = 'hidden'
     document.getElementById('n7').style.visibility = 'hidden'
     document.getElementById('n8').style.visibility = 'hidden'
+    document.getElementById('tx').style.visibility = 'hidden'
 }
 
 document.querySelector('.clos').onclick = function () {
@@ -24,7 +25,7 @@ let yzm = 0
 function hqyz() {
     if (isnum()) {
         let randomNumber = Math.random();
-        yzm = Math.floor(randomNumber * 100000);
+        yzm = Math.floor(randomNumber * 1000000);
         alert("获取的验证码:" + yzm);
     }
 }
@@ -40,6 +41,7 @@ function onLogin() {
     } else if (userpwd.value == yzm) {
         alert("登录成功！！！");
         document.getElementById('div0').style.visibility = 'hidden'
+        document.getElementById('tx').style.visibility = 'visible'
     } else {
         alert("验证码错误");
     }

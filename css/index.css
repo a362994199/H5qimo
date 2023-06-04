@@ -305,7 +305,7 @@ body {
 }
 
 .div3 table {
-    border: #fff 1px solid;
+    /* border: #fff 1px solid; */
     float: right;
     color: #fff;
     margin-top: 3px;
@@ -319,7 +319,7 @@ body {
 }
 
 .div3 table tr th {
-    border: #fff 1px solid;
+    /* border: #fff 1px solid; */
     width: 60px;
     height: 30px;
 }
@@ -917,4 +917,15 @@ body {
 .n8 .n82 ul li:hover {
     text-decoration: underline;
     color: #d31d1d
+}
+
+.tx{
+    width: 80px;
+    height: 50px;
+    background: #000;
+    position: absolute;
+    top:8px;
+    z-index: 20;
+    /* border: #f00 1px solid; */
+    float: left;
 }
