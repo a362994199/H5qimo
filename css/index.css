@@ -2,9 +2,11 @@ a:link {
     color: #928484;
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     color: #928484;
 }
+
 a:hover {
     color: #fff;
     text-decoration: none;
@@ -14,6 +16,7 @@ body {
     width: 1800px;
     height: 750px;
     overflow: hidden;
+    background: #000;
 }
 
 .div0 {
@@ -40,10 +43,12 @@ body {
 .div0 .div01 span {
     font-size: 14px;
 }
-.clos{
+
+.clos {
     float: right;
     margin: 10px 10px 0 0;
 }
+
 .div03 {
     /* border: #000 1px solid; */
     height: 65%;
@@ -53,14 +58,16 @@ body {
     background: #fff;
     border-radius: 10px;
 }
-.div03 table tr th{
+
+.div03 table tr th {
     width: 4%;
     height: 40px;
-    font-size:20px;
+    font-size: 20px;
     font-family: '楷体';
     /* border: 1px solid #f00; */
 }
-.div031{
+
+.div031 {
     width: 70%;
     height: 20%;
     margin: 0 auto;
@@ -69,7 +76,8 @@ body {
     background: #e3dbdb;
     border-radius: 10px;
 }
-.div031 .div0311{
+
+.div031 .div0311 {
     width: 20%;
     height: 100%;
     /* border: 1px solid #f00; */
@@ -79,13 +87,15 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-.div031 input{
+
+.div031 input {
     width: 70%;
     height: 80%;
     border: none;
     background: #e3dbdb;
 }
-.div032{
+
+.div032 {
     width: 70%;
     height: 20%;
     margin: 0 auto;
@@ -94,13 +104,15 @@ body {
     background: #e3dbdb;
     border-radius: 10px;
 }
-.div032 input{
+
+.div032 input {
     width: 60%;
     height: 80%;
     border: none;
     background: #e3dbdb;
 }
-.div032 .div0321{
+
+.div032 .div0321 {
     width: 30%;
     height: 100%;
     /* border: 1px solid #f00; */
@@ -111,7 +123,8 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-.div033{
+
+.div033 {
     width: 70%;
     height: 20%;
     margin: 0 auto;
@@ -121,15 +134,16 @@ body {
     border-radius: 10px;
     opacity: 0.5;
 }
-.div033 button{
+
+.div033 button {
     width: 90%;
     height: 90%;
-    border:0;
-	outline:none;
-   background-color: transparent;
-   font-size: 20px;
-   color: #fff;
-   font-family: '黑体';
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+    font-family: '黑体';
 }
 
 
@@ -146,7 +160,7 @@ body {
     font-size: 20px;
     font-family: '楷体';
     line-height: 100%;
-    
+
 
 
 }
@@ -167,15 +181,18 @@ body {
     text-align: center;
     text-shadow: 4px 4px 4px #f00;
 }
-.div11 img{
+
+.div11 img {
     position: relative;
     top: 20px;
 }
-.div11 span{
+
+.div11 span {
     position: relative;
     top: 10px;
 }
- .div12{
+
+.div12 {
     /* width: 90%; */
     /* display: block; */
     height: 450px;
@@ -184,18 +201,20 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
 .div12::-webkit-scrollbar {
     display: none;
     /*消除滚动轴*/
 }
- .div12 img {
+
+.div12 img {
     width: 40px;
 }
 
 .div1 .div12 table {
     /* border: #fff 1px solid; */
     width: 100%;
-    
+
 
 
 }
@@ -203,13 +222,15 @@ body {
 .div12 table tr th {
     /* border: #fff 1px solid; */
     height: 50px;
-    font-size:25px;
+    font-size: 25px;
 }
-.div12 table tr th a{
+
+.div12 table tr th a {
     position: relative;
     bottom: 10px;
 }
-.div13{
+
+.div13 {
     height: 200px;
     /* white-space: nowrap; */
     overflow-y: scroll;
@@ -217,21 +238,24 @@ body {
     font-size: 12px;
     /* border: 1px solid #f00; */
 }
+
 .div13::-webkit-scrollbar {
     display: none;
     /*消除滚动轴*/
 }
-.div13 table{
+
+.div13 table {
     margin-left: 10px;
 }
-.div13 table tr th{
+
+.div13 table tr th {
     width: 40%;
 }
 
 .div2 {
     width: 70%;
     height: 750px;
-    border: 1px solid #0f0;
+    /* border: 1px solid #0f0; */
     display: inline-block;
 }
 
@@ -323,12 +347,13 @@ body {
     background-size: 800%;
     margin-top: 10px;
     z-index: 10;
-    
+
 }
-.div41 a{
+
+.div41 a {
     color: #fff;
 }
- 
+
 
 
 
@@ -360,7 +385,7 @@ body {
     position: relative;
     top: 25px;
     left: -1050px;
-   
+
 }
 
 .progress {
@@ -406,16 +431,19 @@ body {
     opacity: 0.5;
 
 }
-.div41 .div412{
+
+.div41 .div412 {
     float: right;
     position: relative;
     left: -380px;
     top: -20px;
     font-family: '楷体';
 }
-.div41 .div412 table tr th{
+
+.div41 .div412 table tr th {
     /* border: #f00 1px solid; */
 }
+
 .div41 .div412 table tr th input {
     display: none;
 }
@@ -467,7 +495,7 @@ body {
 }
 
 
-.n1{
+.n1 {
     width: 150px;
     height: 130px;
     z-index: 12;
@@ -477,26 +505,30 @@ body {
     left: -380px;
     color: #fff;
 }
-.n1 table{
+
+.n1 table {
     width: 100%;
     background: #161823;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.n1 table tr{
-}
+
+.n1 table tr {}
+
 .n1 table tr th {
     font-family: '楷体';
     font-size: 18px;
     /* border: #000 1px solid; */
 }
+
 .n1 table tr th img {
     width: 15px;
     height: 15px;
     margin: 5px 5px 0 0;
 
 }
-.n1 .n11{
+
+.n1 .n11 {
     background: #f00;
     width: 100%;
     height: 40px;
@@ -506,7 +538,8 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.n2{
+
+.n2 {
     width: 250px;
     height: 60px;
     z-index: 12;
@@ -518,21 +551,24 @@ body {
     background: #161823;
     font-size: 13px;
     border-radius: 10px;
-    
+
 }
-.n2 img{
+
+.n2 img {
     width: 50px;
     height: 50px;
     position: relative;
     top: 5px;
     left: 10px;
 }
-.n2 span{
+
+.n2 span {
     position: relative;
     bottom: 20px;
     left: 20px;
 }
-.n2 button{
+
+.n2 button {
     border: none;
     background: #f00;
     width: 40px;
@@ -543,8 +579,9 @@ body {
     font-size: 12px;
     border-radius: 10px;
 }
-.n3{
-    width:100px;
+
+.n3 {
+    width: 100px;
     height: 240px;
     z-index: 12;
     /* border: #f00 1px solid; */
@@ -555,21 +592,25 @@ body {
     background: #161823;
     font-size: 13px;
     border-radius: 10px;
-    
+
 }
-.n3 table{
+
+.n3 table {
     width: 100%;
 }
-.n3 table tr th{
+
+.n3 table tr th {
     height: 30px;
     border-radius: 10px;
 }
-.n3 table tr th:hover{
+
+.n3 table tr th:hover {
     color: #000;
     background: #fff;
 }
-.n4{
-    width:160px;
+
+.n4 {
+    width: 160px;
     height: 100px;
     z-index: 12;
     /* border: #f00 1px solid; */
@@ -580,16 +621,18 @@ body {
     background: #161823;
     font-size: 13px;
     border-radius: 10px;
-    
+
 }
-.n4 .n41{
+
+.n4 .n41 {
     width: 100%;
     height: 60px;
     line-height: 60px;
     text-align: center;
     /* border: #f00 1px solid; */
 }
-.n4 .n42{
+
+.n4 .n42 {
     width: 100%;
     height: 40px;
     background: #f00;
@@ -598,8 +641,9 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.n5{
-    width:100px;
+
+.n5 {
+    width: 100px;
     height: 210px;
     z-index: 12;
     /* border: #f00 1px solid; */
@@ -611,42 +655,50 @@ body {
     background: #161823;
     font-size: 13px;
     border-radius: 10px;
-    
+
 }
-.n5 table{
+
+.n5 table {
     width: 100%;
 }
-.n5 table tr th{
+
+.n5 table tr th {
     height: 30px;
     border-radius: 10px;
 }
-.n5 table tr th:hover{
+
+.n5 table tr th:hover {
     color: #000;
     background: #fff;
 }
-.div42{
+
+.div42 {
     /* width: 60px; */
     /* height: 200px; */
     float: right;
     position: relative;
     top: -580px;
-   
+
     /* border: 1px solid #f00; */
 }
-.div42 table tr th{
+
+.div42 table tr th {
     color: #fff;
     /* border: 1px solid #f00; */
 }
-.div42 table tr th img{
+
+.div42 table tr th img {
     width: 40px;
     height: 30px;
 }
-.div42 table tr th .img2{
+
+.div42 table tr th .img2 {
     z-index: 16;
     float: left;
     position: absolute;
     left: 13px;
 }
+
 .div42 table tr th img:hover {
     animation-name: cyh_dh;
     animation-duration: 2s;
@@ -673,7 +725,8 @@ body {
         transform: scale(1.2)rotate(0deg);
     }
 }
-.n6{
+
+.n6 {
     width: 40px;
     height: 110px;
     /* border: 1px solid #f00; */
@@ -684,19 +737,23 @@ body {
     background: #161823;
     border-radius: 10px;
 }
-.n6 table{
+
+.n6 table {
     /* border: 1px solid #f00;  */
     position: absolute;
     margin: 5px;
 }
-.n6 table tr th{
+
+.n6 table tr th {
     border-radius: 20px;
 }
-.n6 table tr th:hover{
+
+.n6 table tr th:hover {
     color: #000;
     background: #fff;
 }
-.n7{
+
+.n7 {
     width: 60px;
     height: 120px;
     /* border: 1px solid #f00; */
@@ -707,38 +764,44 @@ body {
     background: #161823;
     border-radius: 10px;
 }
-.n7 table{
+
+.n7 table {
     /* border: 1px solid #f00;  */
     position: absolute;
     margin: 8px;
 }
-.n7 table tr th{
+
+.n7 table tr th {
     border-radius: 20px;
 }
-.n7 table tr th:hover{
+
+.n7 table tr th:hover {
     color: #000;
     background: #fff;
 }
-.n8{
-    width:325px;
+
+.n8 {
+    width: 325px;
     height: 450px;
     z-index: 12;
     /* border: #f00 1px solid; */
-    float:left;
+    float: left;
     position: relative;
-    left:280px;
+    left: 280px;
     bottom: 20px;
     color: #fff;
     background: #161823;
     font-size: 14px;
     border-radius: 10px;
 }
-.n8 .n81{
+
+.n8 .n81 {
     width: 100%;
     /* height: 80px; */
     /* border: #f00 1px solid; */
 }
-.n8 .n81 .n811{
+
+.n8 .n81 .n811 {
     width: 90%;
     height: 30px;
     line-height: 30px;
@@ -750,18 +813,21 @@ body {
     font-family: '黑体';
     font-weight: 800;
 }
-.n8 .n81 .n811 span{
+
+.n8 .n81 .n811 span {
     float: right;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
     color: #BABABD;
 }
-.n8 .n81 table{
+
+.n8 .n81 table {
     /* margin-top: 10px; */
     width: 95%;
-    margin-left: 4%;
+    margin-left: 2%;
 }
-.n8 .n81 table tr th{
+
+.n8 .n81 table tr th {
     /* border: #f00 1px solid; */
     text-align: left;
     font-family: '宋体';
@@ -769,24 +835,30 @@ body {
     vertical-align: text-top;
     border-radius: 10px;
     font-weight: 600;
-    
+
 }
-.n8 .n81 table tr th:hover{
-    color: #d31d1d;
-    background: #ece6e6;
+
+.n8 .n81 table tr th:hover {
+    /* color: #d31d1d;
+    background: #ece6e6; */
+    text-decoration: underline;
+    color: #d31d1d
 }
-.n8 .n82{
+
+.n8 .n82 {
     width: 100%;
     margin-top: 20px;
     /* border: #f00 1px solid; */
 }
-.n8 .n82 span{
+
+.n8 .n82 span {
     font-size: 16px;
     margin-left: 20px;
     font-family: '黑体';
     font-weight: 800;
 }
-.n8 .n82 ol li{
+
+/* .n8 .n82 ul li{
     width: 70%;
     height: 20px;
     margin-top: 10px;
@@ -797,7 +869,52 @@ body {
     border-radius: 10px;
     font-weight: 600;
 }
-.n8 .n82 ol li:hover{
+.n8 .n82 ul li:hover{
     color: #f00;
     background: #fff;
+} */
+.n8 .n82 ul li {
+    display: block;
+    line-height: 32px;
+    position: relative;
+    /* margin: 3px 0; */
+    counter-increment: nums;
+    padding-left: 30px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+
+.n8 .n82 ul li:before {
+    color: #000;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    content: counter(nums, decimal);
+    position: absolute;
+    left:0;
+    top: 5px;
+    border-radius: 100%;
+    background-color: #edefee;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+.n8 .n82 ul li:first-child:before {
+    background-color: #e24d46
+}
+
+.n8 .n82 ul li:nth-child(2):before {
+    background-color: #2ea7e0
+}
+
+.n8 .n82 ul li:nth-child(3):before {
+    background-color: #6bc30d
+}
+
+.n8 .n82 ul li:hover {
+    text-decoration: underline;
+    color: #d31d1d
 }
