@@ -113,7 +113,46 @@ function switchVideo() {
         video.src = 'mp4/sx1.mp4';
         currentVideo = 1;
     }
-
-
     video.play();
 }  
+
+
+function b2(){
+    video.playbackRate = 2.0;
+}
+function b175(){
+    video.playbackRate = 1.75;
+}
+function b15(){
+    video.playbackRate = 1.5;
+}
+function b1(){
+    video.playbackRate = 1.0;
+}
+function b05(){
+    video.playbackRate = 0.5;
+}
+
+function qx1(){
+    video.playbackQuality = 'best'
+    console.log("高清");
+}
+function qx2(){
+    video.playbackQuality = 'high'
+    console.log("清晰");
+}
+
+function qx3(){
+    console.log("流畅");
+    video.playbackQuality = 'medium'
+}
+
+function qx4(){
+    console.log("极速");
+    video.playbackQuality = 'low'
+}
+function qx5(){
+    console.log("智能");
+    video.playbackQuality = 'auto'
+}
+

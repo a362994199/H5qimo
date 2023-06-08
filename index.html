@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=2.0" >
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" />
@@ -327,6 +327,7 @@
                     <div class="div412">
                         <table cellspacing="10px">
                             <tr>
+                                <th onclick="switchVideo()"><a href="#">切换</a></th>
                                 <th><input type="checkbox" id="a"><label for="a"></label>连播</th>
                                 <th><input type="checkbox" id="b"><label for="b"></label>清屏</th>
                                 <th onmouseover="shown6()" onmouseout="non6()">智能</th>
@@ -339,38 +340,38 @@
                     <div class="n6" id="n6" onmouseover="n6()" onmouseout="noshown6()">
                         <table>
                             <tr>
-                                <th>高清</th>
+                                <th onclick="qx1()">高清</th>
                             </tr>
                             <tr>
-                                <th>清晰</th>
+                                <th onclick="qx2()">清晰</th>
                             </tr>
                             <tr>
-                                <th>流畅</th>
+                                <th onclick="qx3()">流畅</th>
                             </tr>
                             <tr>
-                                <th>极速</th>
+                                <th onclick="qx4()">极速</th>
                             </tr>
                             <tr>
-                                <th>智能</th>
+                                <th onclick="qx5()">智能</th>
                             </tr>
                         </table>
                     </div>
                     <div class="n7" id="n7" onmouseover="n7()" onmouseout="noshown7()">
                         <table>
                             <tr>
-                                <th>2 x</th>
+                                <th onclick="b2()">2 x</th>
                             </tr>
                             <tr>
-                                <th>1.75 x</th>
+                                <th onclick="b175()">1.75 x</th>
                             </tr>
                             <tr>
-                                <th>1.5 x</th>
+                                <th onclick="b15()">1.5 x</th>
                             </tr>
                             <tr>
-                                <th>1 x</th>
+                                <th onclick="b1()">1 x</th>
                             </tr>
                             <tr>
-                                <th>0.5x</th>
+                                <th onclick="b05()">0.5x</th>
                             </tr>
                         </table>
                     </div>

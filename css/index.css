@@ -15,6 +15,7 @@ a:hover {
 body {
     width: 1800px;
     height: 750px;
+    /* margin: 0 auto; */
     overflow: hidden;
     background: #000;
 }
@@ -405,7 +406,7 @@ body {
 .timer {
     float: left;
     position: relative;
-    top: 25px;
+    top: 22px;
     left: -1030px;
 }
 
@@ -420,7 +421,7 @@ body {
     float: right;
     position: relative;
     top: -5px;
-    left: -30px;
+    left: 15px;
 }
 
 .bar {
